@@ -4,7 +4,7 @@
 
 ## GIT Workflow:
 
-### youtube: [GIT Workflow - Georgia Tech - Software Development Process](https://www.youtube.com/watch?v=3a2x1iJFJWc&t=51s)
+youtube: [GIT Workflow - Georgia Tech - Software Development Process](https://www.youtube.com/watch?v=3a2x1iJFJWc&t=51s)
 
 ![Git Workflow](../images/gitworkflow.png)
 
@@ -19,8 +19,7 @@
 
 ---
 
--   `$ git fetch`
--   `$ git merge`
--   `$ git pull`
--   `$ git diff HEAD`
--   `$ git diff`
+-   `$ git fetch` Download objects and refs from another repository
+-   `$ git merge` Join two or more development histories together
+-   `$ git pull` Fetch from and integrate with another repository or a local branch
+-   `$ git diff` Show changes between commits, commit and working tree, etc
