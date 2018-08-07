@@ -3,7 +3,8 @@
 ## Oficial Documentation:
 
 <img src="https://git-scm.com/images/logo@2x.png" style="width: 50px;" />
-[https://git-scm.com/docs](https://git-scm.com/docs)
+
+https://git-scm.com/docs
 
 ## GIT Workflow:
 
