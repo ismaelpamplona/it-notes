@@ -1,6 +1,9 @@
 # GIT Notes
 
-### Oficial Documentation: [https://git-scm.com/docs](https://git-scm.com/docs)
+## Oficial Documentation:
+
+![git logo](https://git-scm.com/images/logo@2x.png)
+[https://git-scm.com/docs](https://git-scm.com/docs)
 
 ## GIT Workflow:
 
