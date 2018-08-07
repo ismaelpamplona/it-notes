@@ -17,10 +17,10 @@
 -   `$ git commit -a -m ¨some message¨` Add and Commit at the same command - automatic stage files
 -   `$ git push -u origin master` Updates remote refs using local refs
 
-```javascript
-$ git fetch //
-$ git merge //
-$ git pull //
-$ git diff HEAD //
-$ git diff //
-```
+---
+
+-   `$ git fetch`
+-   `$ git merge`
+-   `$ git pull`
+-   `$ git diff HEAD`
+-   `$ git diff`
