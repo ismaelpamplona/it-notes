@@ -10,12 +10,12 @@
 
 ## Basic commands:
 
-`$ git init` Create an empty Git repository or reinitialize an existing one
-`$ git add .` This command updates the index using the current content found in the working tree, to prepare the content staged for the next commit.
-`$ git add someFile.js`
-`$ git commit -m ¨some message¨` Stores the current contents of the index in a new commit along with a log message from the user describing the changes.
-`$ git commit -a -m ¨some message¨` Add and Commit at the same command - automatic stage files
-`$ git push -u origin master` Updates remote refs using local refs
+-   `$ git init` Create an empty Git repository or reinitialize an existing one
+-   `$ git add .` This command updates the index using the current content found in the working tree, to prepare the content staged for the next commit.
+-   `$ git add someFile.js`
+-   `$ git commit -m ¨some message¨` Stores the current contents of the index in a new commit along with a log message from the user describing the changes.
+-   `$ git commit -a -m ¨some message¨` Add and Commit at the same command - automatic stage files
+-   `$ git push -u origin master` Updates remote refs using local refs
 
 ```javascript
 $ git fetch //
