@@ -1,61 +1,54 @@
-# JS Notes
-
-Where dos JAvaScript run? Browser and/or Server (Node.js)
-
-### ECMAScript (ES)
-
-ECMAScript is a trademarked scripting-language specification standardized by Ecma International in ECMA-262 and ISO/IEC 16262. It was created to standardize JavaScript, so as to foster multiple independent implementations.
+# JavaScript Notes
 
 ### JavaScript
 
 **JavaScript**, often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.
 
+Where dos JavaScript run? Browser and/or Server (Node.js)
+
+### ECMAScript (ES)
+
+ECMAScript is a trademarked scripting-language specification standardized by Ecma International in ECMA-262 and ISO/IEC 16262. It was created to standardize JavaScript, so as to foster multiple independent implementations.
+
 ### Variables
+
+#### Null, Undefined and NaN
+
+**NaN** = error message from a math calculation
 
 ```javascript
 null === undefined; // false
 null == undefined; // true
 null === null; // true
+
+console.log(null == 0); // false
+console.log(null == undefined); // true
+console.log(NaN == NaN); // false
+
+console.log(typeof NaN); // "number"
+console.log(typeof null); // "object"
+console.log(typeof undefined); // ¨undefined"
 ```
 
-NaN = error message from a math calculation
+### Hoisting
+
+-   _Hoisting_ is JavaScript's default behavior of moving all declarations to the top of the current scope (to the top of the current script or the current function).
+-   In JavaScript, a variable can be declared after it has been used.
+-   In other words; a variable can be used before it has been declared.
+
+### Command: Do / While
 
 ```javascript
-typeof NaN; // "number"`
+var condition = false;
+
+do {
+    console.log("buceta"); // "buceta" 1x
+} while (condition);
 ```
 
-typeof null // "object"
-typeof undefined // ¨undefined"
+### Scope - Declaring a variable without "var" - JS automatic generates a global variable
 
-Hoisting
-
-     In JavaScript, a variable can be declared after it has been used.
-
-     In other words; a variable can be used before it has been declared.
-
-     Hoisting is JavaScript's default behavior of moving all declarations to the top of the current scope (to the top of the current script or the current function).
-
-Command: Do / While
-
-     var condition = false;
-
-     do {
-        console.log("buceta");
-     }
-     while(condition);
-
-    // "buceta" 1x
-
-Null, Undefined and NaN
-
-console.log(null == 0) // false
-
-console.log(null == undefined) // true
-
-console.log(NaN == NaN) // false
-
-Scope - Declaring a variable without "var" - automatic JS generates a globalcariable
-
+```javascript
      function coco() {
          vart test = 'buceta'; // LOCAL VARIBLE w/ strict mode var
          console.log('inside the function - ' + test);
@@ -71,6 +64,7 @@ Scope - Declaring a variable without "var" - automatic JS generates a globalcari
 
      coco();
      console.log('outside the function - ' + test); / WORKS,
+```
 
 Splice and Slice Methods
 
