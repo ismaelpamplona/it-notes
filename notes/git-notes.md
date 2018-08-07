@@ -6,7 +6,7 @@
 
 ### youtube: [GIT Workflow - Georgia Tech - Software Development Process](https://www.youtube.com/watch?v=3a2x1iJFJWc&t=51s)
 
-![Git Workflow](/images/gitworkflow.png)
+![Git Workflow](../images/gitworkflow.png)
 
 ## Basic commands:
 
