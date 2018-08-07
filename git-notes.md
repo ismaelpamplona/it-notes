@@ -11,11 +11,12 @@
 ## Basic commands:
 
 ```
-$ git init
-$ git add
-$ git commit
-$ git commit -a
-$ git push
+$ git init // *Create an empty Git repository or reinitialize an existing one*
+$ git add . //
+$ git add someFile.js //
+$ git commit -m ¨some message¨ //
+$ git commit -a -m ¨some message¨ //
+$ git push -u origin master //
 ```
 
 ```
