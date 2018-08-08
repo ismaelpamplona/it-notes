@@ -2,13 +2,13 @@
 
 ### JavaScript
 
-**JavaScript**, often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.
+_JavaScript_, often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.
 
 Where dos JavaScript run? Browser and/or Server (Node.js)
 
 ### ECMAScript (ES)
 
-ECMAScript is a trademarked scripting-language specification standardized by Ecma International in ECMA-262 and ISO/IEC 16262. It was created to standardize JavaScript, so as to foster multiple independent implementations.
+_ECMAScript_ is a trademarked scripting-language specification standardized by Ecma International in ECMA-262 and ISO/IEC 16262. It was created to standardize JavaScript, so as to foster multiple independent implementations.
 
 ### Variables
 
