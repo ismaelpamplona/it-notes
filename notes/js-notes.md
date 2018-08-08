@@ -2,7 +2,7 @@
 
 ### JavaScript
 
-_JavaScript_, often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.
+    _JavaScript_, often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.
 
 Where dos JavaScript run? Browser and/or Server (Node.js)
 
@@ -29,6 +29,25 @@ console.log(typeof NaN); // "number"
 console.log(typeof null); // "object"
 console.log(typeof undefined); // ¨undefined"
 ```
+
+#### Scope - Declaring a variable without "var" - JS automatic generates a global variable
+
+    ```javascript
+    function coco() {
+        var test = "buceta"; // LOCAL VARIABLE w/ strict mode var
+        console.log("inside the function - " + test);
+    }
+
+    coco(); // "inside the function - buceta"
+    console.log("outside the function - " + test); // "ReferenceError: test is not defined
+    ```
+
+    ```javascript
+    function coco() {
+        test = "buceta"; // GLOBAL VARIABLE
+        console.log("inside the function - " + test);
+    }
+    ```
 
 ### Hoisting
 
