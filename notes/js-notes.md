@@ -47,6 +47,9 @@ function coco() {
     test = "buceta"; // GLOBAL VARIABLE
     console.log("inside the function - " + test);
 }
+
+coco(); // "inside the function - buceta"
+console.log("outside the function - " + test); // WORKS --> "outside the function - buceta"
 ```
 
 ### Hoisting
@@ -63,28 +66,6 @@ var condition = false;
 do {
     console.log("buceta"); // "buceta" 1x
 } while (condition);
-```
-
-### Scope - Declaring a variable without "var" - JS automatic generates a global variable
-
-```javascript
-function coco() {
-    var test = "buceta"; // LOCAL VARIABLE w/ strict mode var
-    console.log("inside the function - " + test);
-}
-
-coco(); // "inside the function - buceta"
-console.log("outside the function - " + test); // "ReferenceError: test is not defined
-```
-
-```javascript
-function coco() {
-    test = "buceta"; // GLOBAL VARIABLE
-    console.log("inside the function - " + test);
-}
-
-coco(); // "inside the function - buceta"
-console.log("outside the function - " + test); // WORKS --> "outside the function - buceta"
 ```
 
 ### Splice and Slice Methods
