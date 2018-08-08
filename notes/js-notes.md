@@ -2,7 +2,7 @@
 
 ### JavaScript
 
-    _JavaScript_, often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.
+_JavaScript_, often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.
 
 Where dos JavaScript run? Browser and/or Server (Node.js)
 
