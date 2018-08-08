@@ -1,5 +1,16 @@
 # JavaScript Notes
 
+1.  JavaScript concept
+2.  ECMAScript (ES) concept
+3.  Variables
+    -   Null, Undefined and NaN
+    -   Scope - Declaring a variable without "var" - JS automatic generates a global variable
+4.  Hoisting
+5.  Command: Do / While
+6.  Splice and Slice Methods
+7.  Filter, Map, Reverse
+8.  Concat and Join
+
 ### JavaScript
 
 _JavaScript_, often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.
