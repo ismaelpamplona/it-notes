@@ -2,14 +2,14 @@
 
 1.  [JavaScript concept](#js-concept)
 2.  [ECMAScript (ES) concept](#ecma)
-3.  [Variables]
+3.  [Variables](#variables)
     -   Null, Undefined and NaN
     -   Scope - Declaring a variable without "var" - JS automatic generates a global variable
-4.  [Hoisting]
-5.  [Command: Do / While]
-6.  [Splice and Slice Methods]
-7.  [Filter, Map, Reverse]
-8.  [Concat and Join]
+4.  [Hoisting](#hoisting)
+5.  [Command: Do / While](#dowhile)
+6.  [Splice and Slice Methods](#spliceslice)
+7.  [Filter, Map, Reverse](#filtermapreverse)
+8.  [Concat and Join](#concatjoin)
 
 ### <a name="js-concept"></a> JavaScript
 
@@ -23,7 +23,7 @@ Where dos JavaScript run? Browser and/or Server (Node.js)
 
 _ECMAScript_ is a trademarked scripting-language specification standardized by Ecma International in ECMA-262 and ISO/IEC 16262. It was created to standardize JavaScript, so as to foster multiple independent implementations.
 
-### Variables
+### <a name="variables"></a> Variables
 
 #### Null, Undefined and NaN
 
@@ -43,7 +43,7 @@ console.log(typeof null); // "object"
 console.log(typeof undefined); // ¨undefined"
 ```
 
-#### Scope - Declaring a variable without "var" - JS automatic generates a global variable
+#### <a name="scope"></a> Scope - Declaring a variable without "var" - JS automatic generates a global variable
 
 ```javascript
 function coco() {
@@ -65,13 +65,13 @@ coco(); // "inside the function - buceta"
 console.log("outside the function - " + test); // WORKS --> "outside the function - buceta"
 ```
 
-### Hoisting
+### <a name="hoisting"></a> Hoisting
 
 -   _Hoisting_ is JavaScript's default behavior of moving all declarations to the top of the current scope (to the top of the current script or the current function).
 -   In JavaScript, a variable can be declared after it has been used.
 -   In other words; a variable can be used before it has been declared.
 
-### Command: Do / While
+### <a name="dowhile"></a> Command: Do / While
 
 ```javascript
 var condition = false;
@@ -81,7 +81,7 @@ do {
 } while (condition);
 ```
 
-### Splice and Slice Methods
+### <a name="spliceslice"></a> Splice and Slice Methods
 
 -   _Slice:_ does not modify the original array
 
@@ -101,7 +101,7 @@ do {
     console.log(second_array); // [2, 3]
     ```
 
-### Filter, Map, Reverse
+### <a name="filtermapreverse"></a> Filter, Map, Reverse
 
 -   _Filter and Map_ do not modify the original array, but return a new array. _Reverse_ modifies the original array.
 
@@ -122,7 +122,7 @@ do {
     console.log(array.reverse()); // [4, 3, 2, 1]
     ```
 
-### Concat and Join
+### <a name="concatjoin"></a> Concat and Join
 
 -   _Concat_: allows to combine 2 arrays in 1 array. Do not modify the original array.
 
