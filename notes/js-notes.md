@@ -16,19 +16,19 @@ ECMAScript is a trademarked scripting-language specification standardized by Ecm
 
 **NaN** = error message from a math calculation
 
-    ```javascript
-    null === undefined; // false
-    null == undefined; // true
-    null === null; // true
+```javascript
+null === undefined; // false
+null == undefined; // true
+null === null; // true
 
-    console.log(null == 0); // false
-    console.log(null == undefined); // true
-    console.log(NaN == NaN); // false
+console.log(null == 0); // false
+console.log(null == undefined); // true
+console.log(NaN == NaN); // false
 
-    console.log(typeof NaN); // "number"
-    console.log(typeof null); // "object"
-    console.log(typeof undefined); // ¨undefined"
-    ```
+console.log(typeof NaN); // "number"
+console.log(typeof null); // "object"
+console.log(typeof undefined); // ¨undefined"
+```
 
 ### Hoisting
 
@@ -38,13 +38,13 @@ ECMAScript is a trademarked scripting-language specification standardized by Ecm
 
 ### Command: Do / While
 
-    ```javascript
-    var condition = false;
+```javascript
+var condition = false;
 
-    do {
-        console.log("buceta"); // "buceta" 1x
-    } while (condition);
-    ```
+do {
+    console.log("buceta"); // "buceta" 1x
+} while (condition);
+```
 
 ### Scope - Declaring a variable without "var" - JS automatic generates a global variable
 
