@@ -1,17 +1,17 @@
 # JavaScript Notes
 
-1.  [JavaScript concept](#introduction)
-2.  ECMAScript (ES) concept
-3.  Variables
+1.  [JavaScript concept](#js-concept)
+2.  [ECMAScript (ES) concept](#ecma)
+3.  [Variables]
     -   Null, Undefined and NaN
     -   Scope - Declaring a variable without "var" - JS automatic generates a global variable
-4.  Hoisting
-5.  Command: Do / While
-6.  Splice and Slice Methods
-7.  Filter, Map, Reverse
-8.  Concat and Join
+4.  [Hoisting]
+5.  [Command: Do / While]
+6.  [Splice and Slice Methods]
+7.  [Filter, Map, Reverse]
+8.  [Concat and Join]
 
-### JavaScript <a name="introduction"></a>
+### JavaScript <a name="js-concept"></a>
 
 _JavaScript_, often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.
 
@@ -19,7 +19,7 @@ Where dos JavaScript run? Browser and/or Server (Node.js)
 
 [Oficial Documentation - https://developer.mozilla.org/en-US/docs/Web/javascript](https://developer.mozilla.org/en-US/docs/Web/javascript)
 
-### ECMAScript (ES)
+### ECMAScript (ES) <a name="ecma"></a>
 
 _ECMAScript_ is a trademarked scripting-language specification standardized by Ecma International in ECMA-262 and ISO/IEC 16262. It was created to standardize JavaScript, so as to foster multiple independent implementations.
 
