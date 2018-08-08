@@ -6,6 +6,8 @@ _JavaScript_, often abbreviated as JS, is a high-level, interpreted programming 
 
 Where dos JavaScript run? Browser and/or Server (Node.js)
 
+[Oficial Documentation - https://developer.mozilla.org/en-US/docs/Web/javascript](https://developer.mozilla.org/en-US/docs/Web/javascript)
+
 ### ECMAScript (ES)
 
 _ECMAScript_ is a trademarked scripting-language specification standardized by Ecma International in ECMA-262 and ISO/IEC 16262. It was created to standardize JavaScript, so as to foster multiple independent implementations.
@@ -111,17 +113,17 @@ do {
 
 ### Concat and Join
 
--   _Concat_ allows to combine 2 arrays in 1 array. Do not modify the original array.
+-   _Concat_: allows to combine 2 arrays in 1 array. Do not modify the original array.
 
     ```javascript
     var array = [1, 2, 3, 4];
     var newArray = [a, b];
     console.log(array.concat(newArray)); // [1, 2, 3, 4, a, b]
-    console.log(arra); // [1, 2, 3, 4]
+    console.log(array); // [1, 2, 3, 4]
     console.log(newArray); // [a, b]
     ```
 
--   _Join_ transform the original array in a String and tell how the elements of the array will be separated in the String.
+-   _Join_: transform the original array in a String and tell how the elements of the array will be separated in the String.
 
     ```javascript
     var array = [1, 2, 3, 4, 5];
