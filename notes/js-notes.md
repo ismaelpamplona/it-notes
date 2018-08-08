@@ -49,69 +49,80 @@ do {
 ### Scope - Declaring a variable without "var" - JS automatic generates a global variable
 
 ```javascript
-     function coco() {
-         vart test = 'buceta'; // LOCAL VARIBLE w/ strict mode var
-         console.log('inside the function - ' + test);
-     }
+function coco() {
+    var test = "buceta"; // LOCAL VARIABLE w/ strict mode var
+    console.log("inside the function - " + test);
+}
 
-     coco();
-     console.log('outside the function - ' + test); // ERROR
-
-     function coco() {
-         test = 'buceta'; // GLOBAL VARIABLE
-         console.log('inside the function - ' + test);
-     }
-
-     coco();
-     console.log('outside the function - ' + test); / WORKS,
+coco(); // "inside the function - buceta"
+console.log("outside the function - " + test); // "ReferenceError: test is not defined
 ```
 
-Splice and Slice Methods
+```javascript
+function coco() {
+    test = "buceta"; // GLOBAL VARIABLE
+    console.log("inside the function - " + test);
+}
 
-     // Slice: does not modify the original array
-        var first_array = [1, 2, 3];
-        var second_array = first_array.slice(1,2); // index
-        console.log(first_array); // [1, 2, 3]
-        console.log(second_array) // [2]
+coco(); // "inside the function - buceta"
+console.log("outside the function - " + test); // WORKS --> "outside the function - buceta"
+```
 
-     // Splice: does not modify the original array
-        var first_array = [1, 2, 3]
-        var second_array = first_array.splice(1,2) // first index and number of elements
-        console.log(first_array) // [1]
-        console.log(second_array) // [2, 3]
+### Splice and Slice Methods
 
-iaraujo
+-   _Slice:_ does not modify the original array
 
-Filter, Map, Reverse
+```javascript
+var first_array = [1, 2, 3];
+var second_array = first_array.slice(1, 2); // start argument, and ends at (but does not include)
+console.log(first_array); // [1, 2, 3]
+console.log(second_array); // [2]
+```
 
-    Filter and Map do not modify the array, but return a new array.
-    Reverse modifies the original array.
+-   _Splice:_ does not modify the original array
 
-    var array = [1, 2, 3, 4]
-    var filteredArray = array.filter(function(element){
-        return element > 1
-     })
-    console.log(filteredArray) // [2, 3, 4]
+```javascript
+var first_array = [1, 2, 3];
+var second_array = first_array.splice(1, 2); // first index and number of elements
+console.log(first_array); // [1]
+console.log(second_array); // [2, 3]
+```
 
-    var mappedArray = array.map(function(element){
-        return element * 3
-     })
-    console.log(mappedArray ) // [3, 6, 9, 12]
+### Filter, Map, Reverse
 
-    console.log(array.reverse()) // [4, 3, 2, 1]
+-   _Filter and Map_ do not modify the array, but return a new array. _Reverse_ modifies the original array.
 
-Concat and Join
+```javascript
+var array = [1, 2, 3, 4]
+var filteredArray = array.filter(function(element){
+return element > 1
+})
+console.log(filteredArray) // [2, 3, 4]
 
-     Concat allows to combine 2 arrays in 1 array. Do not modify the original array.
+var mappedArray = array.map(function(element){
+return element \* 3
+})
+console.log(mappedArray ) // [3, 6, 9, 12]
 
-          (ar array = [1, 2, 3, 4]
-         var newArray = [a, b]
-         console.log(array.concat(newArray)) // [1, 2, 3, 4, a, b]
-          console.log(arra) // [1, 2, 3, 4]
-           console.log(newArray) // [a, b]
+console.log(array.reverse()) // [4, 3, 2, 1]
+```
 
-    Join transform the original array in a String and tell how the elements of the array will be separated in the String.
+### Concat and Join
 
-     var array = [1, 2, 3, 4, 5]
-     var secondArray = [" - "]
-     console.log(array.join(secondArray)) // "1 - 2 - 3 - 4 - 5"
+-   _Concat_ allows to combine 2 arrays in 1 array. Do not modify the original array.
+
+```javascript
+var array = [1, 2, 3, 4];
+var newArray = [a, b];
+console.log(array.concat(newArray)); // [1, 2, 3, 4, a, b]
+console.log(arra); // [1, 2, 3, 4]
+console.log(newArray); // [a, b]
+```
+
+-   _Join_ transform the original array in a String and tell how the elements of the array will be separated in the String.
+
+```javascript
+var array = [1, 2, 3, 4, 5];
+var secondArray = [" - "];
+console.log(array.join(secondArray)); // "1 - 2 - 3 - 4 - 5"
+```
