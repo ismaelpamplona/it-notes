@@ -11,7 +11,7 @@
 7.  [Filter, Map, Reverse]
 8.  [Concat and Join]
 
-### JavaScript <a name="js-concept"></a>
+### <a name="js-concept"></a> JavaScript
 
 _JavaScript_, often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.
 
@@ -19,7 +19,7 @@ Where dos JavaScript run? Browser and/or Server (Node.js)
 
 [Oficial Documentation - https://developer.mozilla.org/en-US/docs/Web/javascript](https://developer.mozilla.org/en-US/docs/Web/javascript)
 
-### ECMAScript (ES) <a name="ecma"></a>
+### <a name="ecma"></a> ECMAScript (ES)
 
 _ECMAScript_ is a trademarked scripting-language specification standardized by Ecma International in ECMA-262 and ISO/IEC 16262. It was created to standardize JavaScript, so as to foster multiple independent implementations.
 
