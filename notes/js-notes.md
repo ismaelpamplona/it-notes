@@ -14,7 +14,7 @@ _ECMAScript_ is a trademarked scripting-language specification standardized by E
 
 #### Null, Undefined and NaN
 
-**NaN** = error message from a math calculation
+_NaN_: error message from a math calculation
 
 ```javascript
 null === undefined; // false
