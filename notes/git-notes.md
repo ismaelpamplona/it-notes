@@ -5,6 +5,7 @@
 ## GIT Workflow:
 
 youtube: [GIT Workflow - Georgia Tech - Software Development Process](https://www.youtube.com/watch?v=3a2x1iJFJWc&t=51s)
+youtube: [GIT Demo: Intro to Git - Georgia Tech - Software Development Process](https://www.youtube.com/watch?v=9pa_PV2LUlw)
 
 ![Git Workflow](../images/gitworkflow.png)
 
@@ -23,3 +24,4 @@ youtube: [GIT Workflow - Georgia Tech - Software Development Process](https://ww
 -   `$ git merge` Join two or more development histories together
 -   `$ git pull` Fetch from and integrate with another repository or a local branch
 -   `$ git diff` Show changes between commits, commit and working tree, etc
+-   `$ git diff HEAD` Show the difference between the Workspace and the Local Repository (HEAD).
