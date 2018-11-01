@@ -6,7 +6,7 @@ _JavaScript_, often abbreviated as JS, is a high-level, interpreted programming 
 
 Where dos JavaScript run? Browser and/or Server (Node.js)
 
-[Oficial Documentation - https://developer.mozilla.org/en-US/docs/Web/javascript](https://developer.mozilla.org/en-US/docs/Web/javascript)
+[Oficial Documentation](https://developer.mozilla.org/en-US/docs/Web/javascript)
 
 ### ECMAScript (ES)
 
