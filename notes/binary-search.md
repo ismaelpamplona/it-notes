@@ -1,6 +1,8 @@
 # Binary Search
 
-[Algorithms: Binary Search - HackerRank Channel - https://www.youtube.com/watch?v=P3YID7liBug](https://www.youtube.com/watch?v=P3YID7liBug)
+### YouTube Videos:
+
+[Algorithms: Binary Search - HackerRank Channel](https://www.youtube.com/watch?v=P3YID7liBug)
 
 ```javascript
 // Binary Search Array

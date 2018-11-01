@@ -1,6 +1,8 @@
 # Big O Notation
 
-[Big O Notation - HackerHank - https://www.youtube.com/watch?v=v4cd1O4zkGw](https://www.youtube.com/watch?v=v4cd1O4zkGw)
+### YouTube Videos:
+
+[Big O Notation - HackerHank](https://www.youtube.com/watch?v=v4cd1O4zkGw)
 
 "Big" means "capital", and "O" means order, as in "order of complexity". So named because of the convention of writing "order of complexity" as O(f(x)), e.g., with a capital letter 'O', or a 'Big O'.
 

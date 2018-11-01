@@ -4,8 +4,10 @@
 
 ## GIT Workflow:
 
-youtube: [GIT Workflow - Georgia Tech - Software Development Process](https://www.youtube.com/watch?v=3a2x1iJFJWc&t=51s)
-youtube: [Git - Understanding the Basics - Academind](https://www.youtube.com/watch?v=_OZVJpLHUaI)
+### YouTube Videos:
+
+[GIT Workflow - Georgia Tech - Software Development Process](https://www.youtube.com/watch?v=3a2x1iJFJWc&t=51s)
+[Git - Understanding the Basics - Academind](https://www.youtube.com/watch?v=_OZVJpLHUaI)
 
 ![Git Workflow](../images/gitworkflow.png)
 

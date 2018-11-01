@@ -1,10 +1,12 @@
 # Linked List
 
-[Introduction to linked list - mycodeschool - https://www.youtube.com/watch?v=NobHlGUjV3g&t=6s](https://www.youtube.com/watch?v=NobHlGUjV3g&t=6s)
+### YouTube Videos:
 
-[Linked List - Beau teaches JavaScript - freeCodeCamp.org - https://www.youtube.com/watch?v=9YddVVsdG5A](https://www.youtube.com/watch?v=9YddVVsdG5A)
+[Introduction to linked list - mycodeschool](https://www.youtube.com/watch?v=NobHlGUjV3g&t=6s)
 
-[Data Structures: Linked Lists - HackerRank - https://www.youtube.com/watch?v=njTh_OwMljA](https://www.youtube.com/watch?v=njTh_OwMljA)
+[Linked List - Beau teaches JavaScript - freeCodeCamp.org](https://www.youtube.com/watch?v=9YddVVsdG5A)
+
+[Data Structures: Linked Lists - HackerRank](https://www.youtube.com/watch?v=njTh_OwMljA)
 
 ```javascript
 // Linked List in JS
