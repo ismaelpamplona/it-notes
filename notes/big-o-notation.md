@@ -4,6 +4,8 @@
 
 [Big O Notation - HackerHank](https://www.youtube.com/watch?v=v4cd1O4zkGw)
 
+[Big O Notation: A Few Examples - freeCodeCamp.org](https://www.youtube.com/watch?v=-Eiw_-v__Vo)
+
 "Big" means "capital", and "O" means order, as in "order of complexity". So named because of the convention of writing "order of complexity" as O(f(x)), e.g., with a capital letter 'O', or a 'Big O'.
 
 ## 4 Importants Rules - BigO

@@ -22,7 +22,7 @@ const hashFn = (str, max) => {
 const HashTable = function(){
 
   let storage = [];
-  const storageLimit = 200;
+  const storageLimit = 37;
 
   this.print = function(){
     console.log(storage);
