@@ -28,7 +28,7 @@ class Trie{
   }
 
   print(){
-    let arr = new Array;
+    let arr = new Array();
     const search = (node, string) => {
       if (node.keys.size != 0){
         for (let l of node.keys.keys()){
