@@ -3,7 +3,9 @@
 ### YouTube Videos:
 
 [Data Structures: Tries - HackerRank](https://www.youtube.com/watch?v=zIjfhVPRZCg)
+
 [Trie Data Structure (EXPLAINED) - Fun With Code](https://www.youtube.com/watch?v=-urNrIAQnNo)
+
 [Trie Data Structure - Beau teaches JavaScript - freeCodeCamp.org](https://www.youtube.com/watch?v=7XmS8McW_1U&index=9&list=PLWKjhJtqVAbkso-IbgiiP48n-O-JQA9PJ)
 
 ```JavaScript
