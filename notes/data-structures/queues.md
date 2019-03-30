@@ -10,9 +10,9 @@
 
 [Queues & Priority Queues - Beau teaches JavaScript - freeCodeCamp.org](https://www.youtube.com/watch?v=bK7I79hcm08&index=3&list=PLWKjhJtqVAbkso-IbgiiP48n-O-JQA9PJ)
 
-```JavaScript
- // Queues in JS
+### Queues in JS
 
+```JavaScript
  // Queues in JS
 
 class Queue{
@@ -72,6 +72,8 @@ console.log(myQueue);
 console.log(myQueue.front());
 
 class PriorityQueue extends Queue{
+
+ // to use the constructor method, first I need to call super() to extend all the Queue methods
 
     add(data){ // enqueue
 
