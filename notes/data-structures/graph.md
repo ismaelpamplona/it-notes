@@ -1,6 +1,6 @@
 # Graph
 
-### YouTube Videos:
+## YouTube Videos:
 
 1° [Data structures: Introduction to graphs - mycodeschool](https://www.youtube.com/watch?v=gXgEDyodOJU)
 
@@ -10,9 +10,20 @@
 
 4° [Graphs: breadth-first search - Beau teaches JavaScript - freeCodeCamp.org](https://www.youtube.com/watch?v=wu0ckYkltus&list=PLWKjhJtqVAbkso-IbgiiP48n-O-JQA9PJ&index=12)
 
-### Graph in JS
+5° [Weighted vs Unweighted Graphs](https://www.youtube.com/watch?v=cMijJ2C1TiI&t)
 
-#### Breadth First Search Graph
+## Weighted and Unweighted graphs
+
+### Weighted-graphs (flights)
+![weighted graphs](../../images/weighted-graphs.png)
+
+### Unweighted-graphs (facebook and instagram)
+![facebook unweighted graphs](../../images/facebook-unweighted-graphs.png)
+![instagram unweighted graphs](../../images/instagram-unweighted-graphs.png)
+
+## Graph in JS
+
+## Breadth First Search Graph
 
 ```JavaScript
 // Graphs: Breadth-first search - JS
