@@ -105,3 +105,29 @@ docker run -v /path/to/code:/app/code ...
 | Since it's anonymous, it can't be re-used (even on same image) | Can be re-used for same caontainer (across restarts)         | Can be re-used for same caontainer (across restarts)             |
 
 [Docker]: https://www.docker.com/ "Docker website"
+
+## Arguments & Environment variables
+
+| **ARG**                                                                           | **ENV**                                                  |
+| --------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| Available inside of Dockerfile, **NOT** accessible in CMD or any application code | Available inside of Dockerfile & in application code     |
+| Set on image build (`docker build`) via `--build-arg`                             | Set via ENV in Dockerfile or via `--env` on `docker run` |
+
+One important note about environment variables and security: Depending on which kind of data you're storing in your environment variables, you might not want to include the secure data directly in your `Dockerfile`.
+
+Instead, go for a separate environment variables file which is then only used at runtime (i.e. when you run your container with `docker run`).
+
+Otherwise, the values are "baked into the image" and everyone can read these values via `docker history <image>`.
+
+For some values, this might not matter but for credentials, private keys etc. you definitely want to avoid that!
+
+If you use a separate file, the values are not part of the image since you point at that file when you run `docker run`. But make sure you don't commit that separate file as part of your source control repository, if you're using source control.
+
+## Containers Network
+
+```mermaid
+flowchart LR
+    App[Container \n app] --> |Requires a container network \n  use container name as domain address| SQL[Container \n SQL]
+    App[Container \n app] --> |Use `host.docker.internal` \n or container IPAddress\n as domain address| Host[Host \n Machine]
+    App[Container \n app] --> |Enabled| WWW[WWW \n app]
+```

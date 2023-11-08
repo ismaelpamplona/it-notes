@@ -14,6 +14,8 @@ docker run -p 5432:5432 -d \
     postgres
 ```
 
+[Docker Hub - Postgres Official Image](https://hub.docker.com/_/postgres)
+
 ## Command Breakdown
 
 - `docker run`: This command is used to create and start a Docker container.

@@ -153,3 +153,21 @@ docker volume rm <volume-name>
 ```sh
 docker volume prune
 ```
+
+Creating a network:
+
+```sh
+docker network create <network-name>
+```
+
+Creating Container Networks:
+
+```sh
+docker run --network <network-name> ...
+```
+
+Inspect a container:
+
+```sh
+docker inspect <container-name>
+```
