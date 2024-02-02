@@ -18,3 +18,4 @@
 - `cp`: Copy files and directories from one location to another.
 - `chown`: Change the owner of files and directories.
 - `gzip`: Compress files (often used in combination with tar to create .tar.gz archives).
+- `ip`:
