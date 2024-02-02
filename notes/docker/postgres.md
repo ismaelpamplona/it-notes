@@ -14,6 +14,18 @@ docker run -p 5432:5432 -d \
     postgres
 ```
 
+Create a postgres db with persisting data:
+
+```sh
+docker run -p 5432:5432 -d \
+    -e POSTGRES_USER=<db-user> \
+    -e POSTGRES_PASSWORD=<password> \
+    -e POSTGRES_DB=<db-name> \
+    -v "$(pwd)/migrations":/docker-entrypoint-initdb.d \
+    -v <volume-name>:/var/lib/postgresql/data \
+    postgres
+```
+
 [Docker Hub - Postgres Official Image](https://hub.docker.com/_/postgres)
 
 ## Command Breakdown

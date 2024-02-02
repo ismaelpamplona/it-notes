@@ -1,3 +1,9 @@
+Start docker:
+
+```sh
+sudo systemctl start docker
+```
+
 List running containers:
 
 ```sh
@@ -170,4 +176,18 @@ Inspect a container:
 
 ```sh
 docker inspect <container-name>
+```
+
+Execute certain commands inside a running container:
+
+```sh
+docker exec -it <container-name> <command>
+```
+
+Run a container overwriting the default command:
+
+```sh
+docker run -it <image-name> <command>
+
+docker run -it node npm init
 ```

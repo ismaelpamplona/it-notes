@@ -131,3 +131,9 @@ flowchart LR
     App[Container \n app] --> |Use `host.docker.internal` \n or container IPAddress\n as domain address| Host[Host \n Machine]
     App[Container \n app] --> |Enabled| WWW[WWW \n app]
 ```
+
+## Docker Compose
+
+[https://docs.docker.com/compose/](https://docs.docker.com/compose/)
+
+Docker Compose is a tool that allows you to combine many `docker build` and `docker run` commands in one configuration file plus orchestration commands.
