@@ -1,5 +1,7 @@
 # Configuring MX Master 3S Thumb Button on Arch Linux with KDE Plasma
 
+[https://wiki.archlinux.org/title/Logitech_MX_Master](https://wiki.archlinux.org/title/Logitech_MX_Master)
+
 This guide outlines the steps for mapping the thumb button on the Logitech MX Master 3S mouse to perform the "Ctrl+Alt+Tab" keystroke, utilizing `xev`, `xbindkeys`, and `xdotool` on Arch Linux with KDE Plasma.
 
 ## Step 1: Identify the Button Press with `xev`
