@@ -74,7 +74,7 @@ Reload `xbindkeys`` to apply the changes:
 
 ```bash
 killall xbindkeys
-xbindkeys
+ sh
 ```
 
 ## Step 6: Test the Configuration
