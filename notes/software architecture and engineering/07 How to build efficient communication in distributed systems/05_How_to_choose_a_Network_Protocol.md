@@ -19,6 +19,35 @@ TCP (Transmission Control Protocol) is a connection-oriented protocol that ensur
 3. **Error Checking:** TCP checks for errors and ensures that data is retransmitted if necessary.
 4. **Connection Termination:** The connection is closed after the data transmission is complete.
 
+```mermaid
+sequenceDiagram
+    participant A as Sender
+    participant B as Receiver
+
+    Note over A,B: 1. Connection Establishment
+    A->>B: SYN
+    B-->>A: SYN-ACK
+    A->>B: ACK
+
+    Note over A,B: 2. Data Transmission
+    A->>B: Data Segment 1
+    B-->>A: ACK for Segment 1
+    A->>B: Data Segment 2
+    B-->>A: ACK for Segment 2
+
+    Note over A,B: 3. Error Checking
+    A->>B: Data Segment 3 (lost)
+    B-->>A: No ACK for Segment 3
+    A->>B: Retransmit Segment 3
+    B-->>A: ACK for Segment 3
+
+    Note over A,B: 4. Connection Termination
+    A->>B: FIN
+    B-->>A: ACK
+    B->>A: FIN
+    A-->>B: ACK
+```
+
 ### User Datagram Protocol (UDP)
 
 UDP (User Datagram Protocol) is a connectionless protocol that sends data packets (datagrams) without establishing a connection. It is faster than TCP but does not guarantee the delivery, order, or integrity of the data.
@@ -35,6 +64,25 @@ UDP (User Datagram Protocol) is a connectionless protocol that sends data packet
 2. **No Acknowledgment:** There is no acknowledgment for received packets, and lost packets are not retransmitted.
 3. **No Connection:** Data can be sent without establishing a connection, reducing overhead and latency.
 
+```mermaid
+sequenceDiagram
+    participant A as Sender
+    participant B as Receiver
+
+    A->>B: 1. Send Datagram 1
+    A->>B: 1. Send Datagram 2
+    A->>B: 1. Send Datagram 3
+
+    Note right of B: No Acknowledgment
+
+    A-xB: 2. No Acknowledgment for Received Packets
+    A-xB: 2. Lost Packets are Not Retransmitted
+
+    Note right of A: No Connection Needed
+
+    A-->>B: 3. Send Data Without Connection
+```
+
 ### Hypertext Transfer Protocol (HTTP)
 
 HTTP (Hypertext Transfer Protocol) is an application-layer protocol used for transmitting hypermedia documents, such as HTML. It is built on top of TCP and is widely used for web communication.
@@ -50,6 +98,26 @@ HTTP (Hypertext Transfer Protocol) is an application-layer protocol used for tra
 1. **Client-Server Model:** The client sends an HTTP request to the server, and the server responds with the requested resource.
 2. **Stateless Protocol:** Each request-response pair is independent, and the server does not retain session information between requests.
 3. **Built on TCP:** HTTP relies on TCP for reliable data transmission.
+
+```mermaid
+sequenceDiagram
+    participant C as Client
+    participant S as Server
+
+    Note over C,S: 1. Client-Server Model
+    C->>S: HTTP Request
+    S-->>C: HTTP Response (Requested Resource)
+
+    Note over C,S: 2. Stateless Protocol
+    C->>S: Another HTTP Request
+    S-->>C: Another HTTP Response
+
+    Note over C,S: 3. Built on TCP
+    C->>S: TCP Handshake
+    S-->>C: TCP Handshake
+    C->>S: HTTP Data Transmission
+    S-->>C: HTTP Data Transmission
+```
 
 ### Summary Table
 
