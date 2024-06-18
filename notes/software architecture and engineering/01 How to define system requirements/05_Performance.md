@@ -1,14 +1,8 @@
 # 5. Performance
 
-## What is Performance?
-
 Imagine you have a toy race car that you want to make go as fast as possible. Performance in computing is like making sure your systems and applications run as fast and efficiently as they can.
 
-## Simple Explanation:
-
 Performance means how well and how quickly a system or application can complete tasks. It's like measuring how fast and smoothly your toy car can race around the track.
-
-## Deep Dive and Important Points:
 
 1. **Definition:**
 

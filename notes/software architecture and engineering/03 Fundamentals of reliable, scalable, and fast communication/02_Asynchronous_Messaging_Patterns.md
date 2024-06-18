@@ -1,7 +1,5 @@
 # 2. Asynchronous Messaging Patterns
 
-## What are Asynchronous Messaging Patterns?
-
 Imagine you're at a carnival with lots of games and activities. Asynchronous messaging patterns are like different ways to manage and organize how people play games and participate in activities without everyone having to wait in line.
 
 ### Message Queuing Model:
@@ -42,8 +40,8 @@ Imagine you're at a carnival with lots of games and activities. Asynchronous mes
 
 ### Message Queuing Model:
 
-1. **Definition:**
-   - Messages are stored in a queue until they are processed.
+1. **Definition:** Messages are stored in a queue until they are processed.
+
 2. **How it Works:**
 
    - **Producer:** Sends messages to the queue.

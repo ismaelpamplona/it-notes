@@ -2,8 +2,6 @@
 
 Imagine you have a box where you store your favorite toy cars. A deduplication cache is like that box, but it only keeps one of each kind of toy car, so you don't have duplicates.
 
-## Simple Explanation:
-
 ### Local vs External Cache:
 
 - **Local Cache:** This is like keeping your toy cars in a small box in your room.

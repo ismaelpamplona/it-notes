@@ -2,23 +2,13 @@
 
 Imagine a queue as a line of people waiting for a roller coaster. Sometimes, the line is too long, and the roller coaster can't take more people (full queue). Other times, there are no people in line (empty queue). Handling these situations efficiently is crucial for smooth operations.
 
-### Load Shedding:
-
 - **Load Shedding:** This is like the roller coaster deciding to let some people go without a ride if the line is too long. It's a way to prevent overload by dropping some requests.
-
-### Rate Limiting:
 
 - **Rate Limiting:** This is like controlling how many people can enter the line per minute. It prevents the line from getting too long too quickly by limiting the number of requests.
 
-### What to do with Failed Requests:
-
 - **Failed Requests:** When the roller coaster can't take more people or there are other issues, you need a plan for what to do with those who can't get on. This involves handling requests that can't be processed.
 
-### Backpressure:
-
 - **Backpressure:** This is like slowing down the rate at which people join the line if it gets too long. It’s a way to signal upstream processes to slow down their request rate.
-
-### Elastic Scaling:
 
 - **Elastic Scaling:** This is like adding more roller coasters when the line gets too long or reducing the number of roller coasters when there are fewer people. It helps handle varying loads by scaling resources up or down.
 

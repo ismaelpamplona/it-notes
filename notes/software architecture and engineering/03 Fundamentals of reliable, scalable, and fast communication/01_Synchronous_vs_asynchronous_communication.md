@@ -1,10 +1,6 @@
 # 1. Synchronous vs Asynchronous Communication
 
-## What are Synchronous vs Asynchronous Communication?
-
 Imagine you and your friend are playing a game where you pass notes to each other. Synchronous communication is like waiting for your friend to read your note and write back before you do anything else. Asynchronous communication is like passing the note and continuing with your game while waiting for your friend's response.
-
-## Simple Explanation:
 
 **Synchronous Communication:**
 
@@ -15,10 +11,6 @@ Imagine you and your friend are playing a game where you pass notes to each othe
 
 - Think of sending a letter. You send it, and the other person reads and replies whenever they can.
 - You don't have to wait for the reply before doing other things.
-
----
-
-## Deep Dive and Important Points:
 
 ### Synchronous Request-Response Models:
 

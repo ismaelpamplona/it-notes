@@ -57,7 +57,7 @@ graph LR;
   end
 ```
 
-1. **Embarrassingly Parallel Problems:**
+3. **Embarrassingly Parallel Problems:**
 
    - **Definition:** Problems that can be easily separated into independent tasks with no need for communication between them.
    - **Advantages:**

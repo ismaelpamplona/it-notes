@@ -39,9 +39,7 @@ Imagine you're waiting in line at an amusement park to get on a ride. A queue is
 
 ### Circular Buffer (Ring Buffer):
 
-1. **Definition:**
-
-   - A fixed-size buffer that wraps around when it reaches the end, overwriting old data with new data.
+1. **Definition:** A fixed-size buffer that wraps around when it reaches the end, overwriting old data with new data.
 
 2. **How it Works:**
 

@@ -2,30 +2,27 @@
 
 Imagine you're sending a letter to a friend. Network protocols are like the rules for how to send and receive that letter so it reaches your friend correctly.
 
-### TCP (Transmission Control Protocol):
+**TCP (Transmission Control Protocol)**:
 
 - TCP is like sending a registered letter through the post office.
 - It makes sure your letter gets to your friend safely and in order.
 - If the letter gets lost, the post office will resend it.
 
-### UDP (User Datagram Protocol):
+**UDP (User Datagram Protocol)**:
 
 - UDP is like sending a postcard.
 - It’s faster than a letter, but there’s no guarantee it will get to your friend.
 - The post office won't resend it if it gets lost.
 
-### HTTP (Hypertext Transfer Protocol):
+**HTTP (Hypertext Transfer Protocol)**:
 
 - HTTP is like the rules for how web browsers and websites talk to each other.
 - When you type a web address, your browser sends a request using HTTP.
 - The website sends back a response with the webpage you asked for.
 
-## Deep Dive and Important Points:
+## TCP (Transmission Control Protocol):
 
-### TCP (Transmission Control Protocol):
-
-1. **Definition:**
-   - A reliable, connection-oriented protocol that ensures data is delivered in order and without errors.
+1. **Definition:** A reliable, connection-oriented protocol that ensures data is delivered in order and without errors.
 2. **How it Works:**
 
    - **Handshake:** Establishes a connection before sending data.
@@ -60,10 +57,9 @@ Imagine you're sending a letter to a friend. Network protocols are like the rule
    - **File Transfers:** Downloading or uploading files.
    - **Email:** Sending and receiving emails.
 
-### UDP (User Datagram Protocol):
+## UDP (User Datagram Protocol):
 
-1. **Definition:**
-   - A connectionless protocol that sends data without establishing a connection.
+1. **Definition:** A connectionless protocol that sends data without establishing a connection.
 2. **How it Works:**
 
    - **No Handshake:** Sends data directly without setting up a connection.
@@ -94,7 +90,7 @@ Imagine you're sending a letter to a friend. Network protocols are like the rule
    - **Streaming:** Live video or audio.
    - **Online Gaming:** Fast-paced multiplayer games.
 
-### HTTP (Hypertext Transfer Protocol):
+## HTTP (Hypertext Transfer Protocol):
 
 1. **Definition:**
    - An application-layer protocol used for transmitting hypermedia documents, like HTML.
@@ -125,7 +121,7 @@ Imagine you're sending a letter to a friend. Network protocols are like the rule
    - **Web Browsing:** Accessing websites.
    - **API Calls:** Communicating with web services.
 
-#### HTTP Request:
+### HTTP Request:
 
 1. **Request Line:**
    - Contains the method (e.g., GET, POST), the resource path, and the HTTP version.
@@ -138,7 +134,7 @@ Imagine you're sending a letter to a friend. Network protocols are like the rule
 3. **Body:**
    - Optional part that contains data sent to the server (e.g., form data).
 
-#### HTTP Response:
+### HTTP Response:
 
 1. **Status Line:**
    - Contains the HTTP version, status code, and status message.

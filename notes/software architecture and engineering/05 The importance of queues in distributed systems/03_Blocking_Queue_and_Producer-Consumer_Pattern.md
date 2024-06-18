@@ -2,19 +2,11 @@
 
 Imagine a factory where workers (producers) are assembling toys and putting them on a conveyor belt (queue). Other workers (consumers) take the toys off the conveyor belt to package them. A blocking queue helps manage this process by ensuring that the producers and consumers work smoothly without overwhelming each other.
 
-### Producer-Consumer Pattern:
-
 - **Producer-Consumer Pattern:** This is like having workers in a factory where some workers (producers) create products and place them on a conveyor belt, while others (consumers) take the products off the belt for packaging.
-
-### Wait and Notify Pattern:
 
 - **Wait and Notify Pattern:** This is like having a system where producers wait if the conveyor belt is full and consumers wait if the belt is empty. They notify each other when they add or remove a product, so everyone knows when to work.
 
-### Semaphores:
-
 - **Semaphores:** This is like having a traffic light system that controls access to the conveyor belt. It signals when a worker can add or take a product to avoid collisions.
-
-### Blocking Queue Applications:
 
 - **Blocking Queue Applications:** Blocking queues are used in scenarios like task scheduling, message processing, and managing work items in a factory-like setup.
 

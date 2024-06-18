@@ -1,14 +1,8 @@
 # 7. Consistency
 
-## What is Consistency?
-
 Imagine you have a set of building blocks, and you want to make sure that each structure you build follows the same rules, so none of them collapse. In computing, consistency ensures that data remains accurate and follows predefined rules, so the system remains reliable.
 
-## Simple Explanation:
-
 Consistency means that data in a database is always valid and follows the rules set for it. It's like making sure all your building blocks fit together perfectly and don't cause the structure to fall apart.
-
-## Deep Dive and Important Points:
 
 1. **Definition:**
 

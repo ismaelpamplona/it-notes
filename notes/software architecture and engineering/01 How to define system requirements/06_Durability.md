@@ -1,14 +1,8 @@
 # 6. Durability
 
-## What is Durability?
-
 Imagine you have a diary where you write all your secrets. You want to make sure that even if you spill water on it or drop it, your secrets are safe. In computing, durability means making sure that your data is safe and lasts over time, even if something goes wrong.
 
-## Simple Explanation:
-
 Durability ensures that once data is saved, it remains safe and intact, even in the event of a system failure. It's like making sure your diary entries are protected and can't be lost or erased.
-
-## Deep Dive and Important Points:
 
 1. **Definition:**
 

@@ -1,10 +1,6 @@
 # 3. Fault Tolerance, Resilience, Reliability
 
-## What are Fault Tolerance, Resilience, and Reliability?
-
 Imagine you have a favorite toy that you really love playing with. Fault tolerance is like making sure your toy can still be played with even if it gets a little broken. Resilience is like your toy bouncing back to normal after getting damaged. Reliability is making sure your toy always works when you want to play with it.
-
-## Simple Explanation:
 
 - **Fault Tolerance:** Ensuring a system continues to operate even if some parts fail. It's like your toy still working even if one part breaks.
 - **Resilience:** The ability of a system to recover quickly from problems. It's like your toy quickly getting fixed and ready to play with again.

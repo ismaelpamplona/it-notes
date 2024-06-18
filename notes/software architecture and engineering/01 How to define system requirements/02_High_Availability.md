@@ -1,10 +1,6 @@
 # 2. High Availability
 
-## What is High Availability?
-
 Imagine you have a favorite toy that you always want to play with, and it should never break or be unavailable. High availability (HA) is like ensuring that your toy is always ready to use, no matter what.
-
-## Simple Explanation:
 
 High availability means making sure that a system or service is always up and running. It's like having a backup plan so that if something goes wrong, the system keeps working without interruption.
 

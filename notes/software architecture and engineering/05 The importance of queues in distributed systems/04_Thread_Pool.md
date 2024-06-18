@@ -68,6 +68,39 @@ Graceful shutdown means closing the thread pool in a nice way, making sure all t
    - **Complete In-Progress Tasks:** Allow current tasks to finish.
    - **Shutdown:** Safely terminate threads after task completion.
 
+## Code example
+
+Threadpool:
+
+```rust
+use threadpool::ThreadPool;
+use std::sync::mpsc::channel;
+use std::time::Duration;
+use std::thread;
+
+fn main() {
+    let n_workers = 4;
+    let n_jobs = 8;
+    let pool = ThreadPool::new(n_workers);
+
+    let (tx, rx) = channel();
+
+    for i in 0..n_jobs {
+        let tx = tx.clone();
+        pool.execute(move || {
+            println!("Task {} is being processed", i);
+            thread::sleep(Duration::from_secs(1)); // Simulate work
+            tx.send(i).expect("Could not send data!");
+        });
+    }
+
+    for _ in 0..n_jobs {
+        let result = rx.recv().expect("Could not receive data!");
+        println!("Task {} is done", result);
+    }
+}
+```
+
 ## Summary
 
 A thread pool is like having a team of helpers ready to work on tasks efficiently, saving time and resources. It helps manage both CPU-bound and I/O-bound tasks effectively. Graceful shutdown ensures all tasks are completed properly before shutting down the pool. This concept improves performance, resource management, and scalability while adding some complexity and overhead.

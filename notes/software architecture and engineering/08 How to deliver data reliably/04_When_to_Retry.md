@@ -84,7 +84,7 @@ If you can do something many times and it gives the same result, it's usually sa
 graph LR
     A[Request \n Fails] --> B[Is the operation \n idempotent?]
     B -->|Yes| C[Retry]
-    B -->|No| D[Check \n Conditions]
+    B -->|No| D[Check \n Cond`itions]
     D --> E[Did the request \n reach the server?]
     E -->|No| C
     E -->|Yes| F[Does the \n server support \n idempotency \n keys?]

@@ -40,16 +40,11 @@ A log is a record of events or messages that happen in a system. It's used to tr
 
 1. **Memory vs Disk:**
 
-   - **Memory:**
-
-     - **Volatile Storage:** Loses data when powered off.
-     - **Fast Access:** Suitable for temporary logs that need quick access.
-     - **Examples:** In-memory caching systems.
-
-   - **Disk:**
-     - **Persistent Storage:** Retains data even when powered off.
-     - **Slower Access:** Suitable for long-term log storage.
-     - **Examples:** Log files stored on hard drives or SSDs.
+   | Memory                                                               | Disk                                                        |
+   | :------------------------------------------------------------------- | :---------------------------------------------------------- |
+   | **Volatile Storage:** Loses data when powered off.                   | **Persistent Storage:** Retains data even when powered off. |
+   | **Fast Access:** Suitable for temporary logs that need quick access. | **Slower Access:** Suitable for long-term log storage.      |
+   | **Examples:** In-memory caching systems.                             | **Examples:** Log files stored on hard drives or SSDs.      |
 
 2. **Log Segmentation:**
 
@@ -168,7 +163,3 @@ There are several common methods for storing logs, each with its own advantages 
 ## Summary
 
 A log is like a diary that records important events or messages. Memory and disk are two types of storage for logs, with memory being fast and temporary, and disk being slower but permanent. Log segmentation divides logs into manageable parts, improving performance and organization. Message position (offset) is like page numbers, helping to quickly find specific messages in the log.
-
-# 2. Index
-
-- How to implement an efficient index for a messaging system.

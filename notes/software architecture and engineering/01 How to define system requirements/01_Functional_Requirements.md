@@ -1,12 +1,6 @@
 # 1. Functional Requirements
 
-## What are Functional Requirements?
-
 Imagine you're building a treehouse. Functional requirements are like the rules or features you need for the treehouse to work properly. They tell you what the treehouse should do.
-
----
-
-## Simple Explanation:
 
 Functional requirements are like a list of tasks your treehouse should be able to do. For example:
 
@@ -15,8 +9,6 @@ Functional requirements are like a list of tasks your treehouse should be able t
 - It should have a door that you can open and close.
 
 These tasks or features make sure your treehouse works the way you want it to.
-
----
 
 ## Deep Dive and Important Points:
 
@@ -41,8 +33,6 @@ These tasks or features make sure your treehouse works the way you want it to.
    - They help in planning and designing the system.
    - They ensure all necessary features are included.
    - They provide a basis for testing and validating the system.
-
----
 
 ## Summary
 

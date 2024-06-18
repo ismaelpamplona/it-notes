@@ -1,14 +1,8 @@
 # 4. Scalability
 
-## What is Scalability?
-
 Imagine you have a toy collection that keeps growing. Scalability is like having a bigger toy box that can hold all your toys, no matter how many you have. It's about making sure your toy box can expand as you get more toys.
 
-## Simple Explanation:
-
 Scalability means that a system can grow and handle more work or users without breaking down. It's like having a toy box that can get bigger as you get more toys, so you always have enough space.
-
-## Deep Dive and Important Points:
 
 1. **Definition:**
 
