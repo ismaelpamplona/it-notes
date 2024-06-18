@@ -33,3 +33,9 @@ Ctrl + b ⬅️
 
 Ctrl + b ➡️
 ```
+
+Kill the current pane
+
+```
+Ctrl + b x
+```
