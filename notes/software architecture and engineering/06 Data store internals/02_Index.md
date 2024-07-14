@@ -214,7 +214,3 @@ Kafka uses a unique approach to indexing messages to ensure fast and efficient r
 An index is like a map that helps you find data quickly without scanning everything. In a messaging system, implementing an efficient index involves choosing the right data structure (like B-tree or hash table), defining primary and secondary indexes, and using them to speed up data retrieval. Proper indexing improves the performance and scalability of the system.
 
 Apache Kafka's use of segment-based indexing allows for efficient message retrieval by mapping ranges of message IDs to specific segments and maintaining segment-specific indexes. This approach ensures fast access to messages, improves scalability, and enhances fault tolerance, making Kafka a robust solution for real-time data streaming and processing.
-
-# 3. Time series data
-
-- How to store and retrieve time series data at scale and with low latency.

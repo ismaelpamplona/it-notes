@@ -1,4 +1,4 @@
-# 5. Big Compute Architecture
+the_importance_of_queues_in_distributed_systems.md# 5. Big Compute Architecture
 
 Imagine you need to solve a very large puzzle, and it's too big for one person to complete quickly. Big compute architecture is like having a big team where each person works on a small piece of the puzzle at the same time, making it faster to complete the whole puzzle.
 

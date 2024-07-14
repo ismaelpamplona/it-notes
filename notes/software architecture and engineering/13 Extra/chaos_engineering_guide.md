@@ -1,4 +1,3 @@
-
 # Chaos Engineering: An In-Depth Guide
 
 ## Introduction
@@ -29,6 +28,7 @@ Chaos Engineering involves simulating real-world failures and observing how a sy
 ### 1. **Failure Injection**
 
 Failure injection involves intentionally introducing failures into the system. This can include:
+
 - **Terminating Instances**: Shutting down servers or instances to test failover mechanisms.
 - **Network Latency**: Introducing artificial latency to observe the impact on performance.
 - **Network Partitioning**: Simulating network outages or partitions to test resilience.
@@ -69,25 +69,31 @@ Hypothesis-driven testing involves formulating hypotheses about how the system s
 ### Step-by-Step Guide
 
 1. **Define the Experiment Scope**
+
    - Identify critical components and services to test.
    - Determine the blast radius and control measures.
 
 2. **Formulate Hypotheses**
+
    - Develop hypotheses about the system’s expected behavior under failure conditions.
 
 3. **Design the Experiment**
+
    - Select the appropriate failure injection methods.
    - Plan the experiment steps and define success criteria.
 
 4. **Execute the Experiment**
+
    - Introduce the faults and observe the system’s response.
    - Collect data and monitor metrics.
 
 5. **Analyze Results**
+
    - Compare the observed behavior with the expected outcomes.
    - Identify any weaknesses or unexpected behaviors.
 
 6. **Implement Improvements**
+
    - Use the findings to make necessary improvements.
    - Update system architecture, configurations, or operational practices.
 

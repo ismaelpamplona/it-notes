@@ -1,4 +1,4 @@
-# Package Management and Software Installation
+# 8. Package Management and Software Installation
 
 ## 8.1 Introduction to Package Management
 

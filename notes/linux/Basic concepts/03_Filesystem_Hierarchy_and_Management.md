@@ -41,87 +41,87 @@ The Filesystem Hierarchy Standard (FHS) defines the directory structure and dire
 
 ### Directory Descriptions
 
-1. **/** (Root)
+1. **`/`** (Root)
 
    - The top-level directory in the filesystem hierarchy.
    - All other directories and files are located under the root directory.
 
-2. **/bin**
+2. **`/bin`**
 
    - Contains essential binary executables needed for system operation.
    - Examples: `ls`, `cp`, `mv`, `rm`.
 
-3. **/boot**
+3. **`/boot`**
 
    - Contains bootloader files and the kernel.
    - Examples: `vmlinuz`, `initrd`.
 
-4. **/dev**
+4. **`/dev`**
 
    - Contains device files that represent hardware components.
    - Examples: `sda`, `tty`, `null`.
 
-5. **/etc**
+5. **`/etc`**
 
    - Contains system configuration files.
    - Examples: `passwd`, `fstab`, `hosts`.
 
-6. **/home**
+6. **`/home`**
 
    - Contains user home directories.
    - Example: `/home/username`.
 
-7. **/lib**
+7. **`/lib`**
 
    - Contains shared libraries needed by binaries in `/bin` and `/sbin`.
    - Examples: `libc.so`, `libm.so`.
 
-8. **/media**
+8. **`/media`**
 
    - Mount points for removable media such as CD-ROMs and USB drives.
    - Examples: `/media/cdrom`, `/media/usb`.
 
-9. **/mnt**
+9. **`/mnt`**
 
    - Temporary mount points for filesystems.
    - Examples: `/mnt/disk`, `/mnt/backup`.
 
-10. **/opt**
+10. **`/opt`**
 
     - Contains optional software packages.
     - Examples: `/opt/lampp`, `/opt/vmware`.
 
-11. **/root**
+11. **`/root`**
 
     - Home directory for the root user.
     - Example: `/root`.
 
-12. **/run**
+12. **`/run`**
 
     - Contains runtime data for processes started since the last boot.
     - Examples: `/run/lock`, `/run/shm`.
 
-13. **/sbin**
+13. **`/sbin`**
 
     - Contains essential system binaries for administration.
     - Examples: `ifconfig`, `reboot`, `shutdown`.
 
-14. **/srv**
+14. **`/srv`**
 
     - Contains data for services provided by the system.
     - Examples: `/srv/ftp`, `/srv/www`.
 
-15. **/tmp**
+15. **`/tmp`**
 
     - Contains temporary files.
     - Example: `/tmp`.
 
-16. **/usr**
+16. **`/usr`**
 
     - Contains user utilities and applications.
     - Examples: `/usr/bin`, `/usr/lib`.
 
-17. **/var**
+17. **`/var`**
     - Contains variable data such as logs, spool files, and caches.
     - Examples: `/var/log`, `/var/spool`.
 
@@ -162,7 +162,7 @@ graph TD;
 ### Mounting and Unmounting Filesystems
 
 - **Mount Points**: Directories where filesystems are mounted.
-- **/etc/fstab**: File containing static information about filesystems.
+- **`/etc/fstab**: File containing static information about filesystem`s.
   - Example entry: `/dev/sda1 /mnt ext4 defaults 0 2`
 
 ### Filesystem Checking and Repair

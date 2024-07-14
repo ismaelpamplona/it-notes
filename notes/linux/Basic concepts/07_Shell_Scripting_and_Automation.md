@@ -1,5 +1,4 @@
-
-# Shell Scripting and Automation
+# 7. Shell Scripting and Automation
 
 ## 7.1 Introduction to Shell Scripting
 
@@ -18,7 +17,7 @@
 ### Shebang
 
 - **Shebang (`#!`)**: Specifies the interpreter to be used for the script.
-  
+
 ```sh
 #!/bin/bash
 ```
@@ -332,4 +331,3 @@ copy_file source.txt destination.txt
 ## Conclusion
 
 Understanding shell scripting and automation is essential for managing and automating tasks in a Linux environment. This knowledge will enable you to write efficient scripts to automate routine tasks, manage system configurations, and enhance your productivity.
-
